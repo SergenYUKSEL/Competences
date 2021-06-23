@@ -1,0 +1,73 @@
+.leftmenu {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid black;
+    background: #d9d9d9;
+    border-radius: 4px 4px 4px 4px;
+    width: 20%;
+    margin-left: 6%;
+}
+.subtable {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.titlemenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #acacac ;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50px;
+}
+.choice {
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.id_egnom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    background: #d9d9d9;
+    border-radius: 4px 4px 4px 4px;
+    width: 60%;
+    margin-right: 6%;
+    padding-bottom: 1%;
+}
+.flex_container {
+ display: flex;
+ justify-content: space-between;
+}
+.rightborder {
+    border: 3px solid #acacac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightsubtitle {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.largeinput {
+    width: 700px;
+}
+.fa-4x {
+    margin-left: 25%;
+}
