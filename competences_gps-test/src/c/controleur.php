@@ -15,7 +15,7 @@ if(isset($_POST['valider'])){
     //on peut combiner isset() pour valider plusieurs champs à la fois
                     //tout est précisés correctement, on inscrit le membre dans la base de données si le pseudo n'est pas déjà utilisé par un autre utilisateur
                     //d'abord il faut créer une connexion à la base de données dans laquelle on souhaite l'insérer:
-                    $mysqli=mysqli_connect('localhost','root','password','competences');//'serveur','nom d'utilisateur','pass','nom de la table'
+                    $mysqli=mysqli_connect('localhost','root','root','competences');//'serveur','nom d'utilisateur','pass','nom de la table'
                     if(!$mysqli) {
                         echo "Erreur connexion BDD";
                         //Dans ce script, je pars du principe que les erreurs ne sont pas affichées sur le site, vous pouvez donc voir qu'elle erreur est survenue avec mysqli_error(), pour cela décommentez la ligne suivante:
