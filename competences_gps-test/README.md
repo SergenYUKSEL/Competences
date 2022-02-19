@@ -18,17 +18,3 @@ bash install.sh
 ### Manually
 
 In config folder, rename _config.php to config.php and change the values inside.
-
-
-
-## TROUBLESHOOTING
-
-
-
-
-## CONTRIBUTORS
-
-Add your name under as following :
-
-Enzo  VERDONK <zozover1@gmail.com>
-...
